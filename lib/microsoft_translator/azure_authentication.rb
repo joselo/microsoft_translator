@@ -1,7 +1,7 @@
 module MicrosoftTranslator
   class AzureAuthentication
     #AUTH_URL = 'https://datamarket.accesscontrol.windows.net/v2/OAuth2-13'
-    AUTH_URL = 'https://api.cognitive.microsoft.com/sts/v1.0' 
+    AUTH_URL = 'https://api.cognitive.microsoft.com/sts/v1.0/issueToken' 
     API_SCOPE = 'http://api.microsofttranslator.com'
     GRANT_TYPE = 'client_credentials'
 
